@@ -1,0 +1,16 @@
+<p>DIRECTIVA ngIf</p>
+
+***********
+<br>
+<div *ngIf="usuario; else ingreso">
+    Bienvenido {{usuario}}
+</div>
+<br>
+************************
+
+<ng-template #ingreso>
+    Por favor ingrese
+
+    <button (click) ="usuario = 'Jossie'">Ingresar</button>
+</ng-template>
+

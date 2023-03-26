@@ -1,0 +1,23 @@
+.container-fluid{
+    background-color: aliceblue;
+    color: darkslategray;
+    height: 100vh;
+}
+
+.container-option{
+    background-color: aliceblue;
+    color: darkslategray;
+    height: 25vh;
+}
+
+
+img.izquierda {
+    float: left;
+    margin-right: 20px;   
+  }
+  
+  img.derecha {
+    float: right;
+    margin-left: 20px;
+
+  }

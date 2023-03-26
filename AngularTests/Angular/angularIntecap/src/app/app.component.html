@@ -1,0 +1,24 @@
+<h1>Rutas y LazyLoading</h1>
+
+<ul>
+  <li><a routerLink="/aplicacion/home">HOME</a></li>
+  <li><a routerLink="/aplicacion/perfil">PERFIL</a></li>
+  <li><a routerLink="/aplicacion/producto">PRODUCTO</a></li>
+</ul>
+
+<h1>Directivas</h1>
+
+<ul>
+  <li><a routerLink="/directivas/ngif">ngIf</a></li>
+  <li><a routerLink="/directivas/ngfor">ngFor</a></li>
+  <li><a routerLink="/directivas/ngswitch">ngSwitch</a></li>
+</ul>
+
+<h4>Resultados:</h4>
+<router-outlet></router-outlet>
+
+<!--//[08/03/2023]Estilos 1-->
+<h1>Estilos dinamicos</h1>
+<link rel="stylesheet" [href]="sanitizer.bypassSecurityTrustResourceUrl(CSSURL)">
+<!--//[08/03/2023]Estilos 1-->
+<button (click)="cambiarEstilo()">Cambiar Estilo</button>

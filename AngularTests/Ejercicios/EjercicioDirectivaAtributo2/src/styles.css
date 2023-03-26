@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.verde{
+    color:green;
+}
+.corinto{
+    color:orangered;
+}
+
+.amarillo{
+    color:yellow;
+}
+
+thead{
+    background-color: gray;
+}

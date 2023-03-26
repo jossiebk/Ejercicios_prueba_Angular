@@ -1,0 +1,6 @@
+<table class="table table-bordered">
+    <tr *ngFor=" let item of lista; let primero=first; let ultimo=last;" [ngClass]="{azul:primero, naranja:ultimo}">
+        <td>{{item}}</td>
+    </tr>
+</table>
+<!-- <router-outlet></router-outlet> -->

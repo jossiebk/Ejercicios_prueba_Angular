@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  
+  <div class="navbar">
+    <a class="nav-link" routerLink="inicio">Inicio</a>
+    <div class="dropdown">
+      <button class="dropbtn"> 
+        <a class="nav-link" >Ver la carta</a>
+      </button>
+      <div class="dropdown-content">
+        <a class="nav-link" routerLink="menu">Ver menú</a>
+        <a class="nav-link" routerLink="bebidas">Ver bebidas</a>
+        <a class="nav-link" routerLink="postres">Ver postres</a>
+      </div>    
+    </div> 
+    <a class="nav-link" routerLink="salones">Fiestas Privadas</a>
+    <a class="nav-link" routerLink="ubicacion">Ubicación</a>
+    <a class="nav-link" routerLink="reserva">Reserva</a>
+    <a class="nav-link" routerLink="contacto">Contacto</a>
+    <a class="nav-link" routerLink="iniciar-sesion">Iniciar Sesión</a>
+  </div>
+
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+.container-fluid{
+    background-color: aliceblue;
+    color: darkslategray;
+    height: 100vh;
+}
+
+img.centro {
+    float: center;
+    margin-right: 20px;   
+  }
